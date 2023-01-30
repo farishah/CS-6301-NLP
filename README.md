@@ -1,2 +1,2 @@
-# CS 6301 NLP
+# NLP
 ## Welcome to Farishah's Portfolio
