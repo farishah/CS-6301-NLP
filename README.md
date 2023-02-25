@@ -7,11 +7,26 @@
 ## Web Crawler
 [Building a Corpus - Web Crawler](https://github.com/farishah/CS6301-NLP/tree/main/FarishahNahrin_WebCrawler)
 
+Summary: The entire text data was aggregated, with data from all the internal and external relevant links. The code uses the requests library to fetch the HTML content of the virtualbangladesh site. Once the HTML content is fetched, it can be passed to the Scrapy library for parsing. The code then iterates through all the URLs on the site, and then it uses Requests and Scrapy again, to extract the relevant information. After aggregating all the scraped data, the code does the tokenization, which involves splitting the text into individual words or tokens. And this helps prepare the data for further processing, like filtering non-alphanumeric characters and removing stop words. Then the entire data is cleaned up and the sentence gets tokenized. The reason why I am using Scrapy instead of BeautifulSoup, is because I have a bit more experience with Scrapy. And the instructions said, "be able to do web  scraping with Beautiful Soup or other APIs" So this is the other API i have chosen to scrape with. It can also handle requests asynchronously. After extracting the text with Scrapy, the code could pass the text to sent_tokenize to split it into individual sentences. This allows for the processing on a sentence-level, which was used for the knowledge base. Then the top five sentences, for each keyword, contained this said keyword, and then it was combined with ‘,’ as a delimiter. The Top 10 Terms I picked was: ['bangladesh', 'pakistan', 'east', 'awami', 'muslim', 'government', 'india', 'military', 'state', 'political'].
+
 ## WordNet
 [Deep Dive into WordNet](https://github.com/farishah/CS6301-NLP/blob/main/Farishah_Wordnet.ipynb)
+
+Summary: WordNet is a "lexical database of nouns, verbs, adjectives and adverbs that provides short definitions called glosses, and use examples." WordNet started as a project at Princeton University, organized by George Miller. The primary premise of the project was "to support theories of human semantic memory, which suggested that people organize concepts mentally in some kind of hierarchy." In NLTK, WordNet is just another NLTK corpus reader, that is created for natural language processing and can be used for translating language automatically, text similarity, to disambiguate words, as a thesaurus. 
 
 ## N-Grams
 [N-Grams Project](https://github.com/farishah/CS6301-NLP/tree/main/Farishah_Ngrams)
 
 [N-Grams Narrative](https://farishah.github.io/CS6301-NLP/Farishah_Ngrams/Farishah_Narrative_Ngrams.pdf)
+
+Project 1 Summary: Created function to read data from the file and returns unigrams and bigrams of data. Then, I replaced the newlines with spaces and tokenized the text. Then I retrieved the unigrams and bigrams into respective lists. I used the counter class to count the bigrams and unigrams, which will process faster, and I'll also convert it to dictionary again. Then I pickled these dictionaries. 
+
+Project 2 Summary: Created a function that unpickles a dictionary from a given file. Then, I read the unigrams and bigrams from the files. Then I had a formula, to calculate "V." to use for later computations. V = the total vocabulary size, based on the formula given in the hints (which means to: add the lengths of the 3 unigram dictionaries). Then, I created a function that calculates probability with unigrams and bigrams - i first crreated the unigrams and bigrams, initialzed the laplace probability to 1, since it can't equal 0, and it will be a value that's multiplied. Then, I iterated this and applied it to all the text. Then I applied this formula: p_laplace = p_laplace * ((b + 1) / (u + v)). Then I created a function that calculates the probabilty for each language, by passing their unigram and bigram into the the defined functions. Then, I created another function that calculated the probability for each language, by referencing my previous function. Then, I extracted the langnuage for the maximum probabiltiy only. Next, I read the LangId.test file, then detected the results and wrote it to a file. Then I read the LangId.sol (correct classifications files), then I got the accuracy. 
+
+Accuracy of correctly classified instances : 97.33%
+The incorrectly Identified Line Numbers are: 24 63 87 92 191 196 220 279
+
+
+
+
 
