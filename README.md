@@ -25,9 +25,6 @@ Project 1 Summary: Created function to read data from the file and returns unigr
 
 Project 2 Summary: Created a function that unpickles a dictionary from a given file. Then, I read the unigrams and bigrams from the files. Then I had a formula, to calculate "V." to use for later computations. V = the total vocabulary size, based on the formula given in the hints (which means to: add the lengths of the 3 unigram dictionaries). Then, I created a function that calculates probability with unigrams and bigrams - i first created the unigrams and bigrams, initialzed the laplace probability to 1, since it can't equal 0, and it will be a value that's multiplied. Then, I iterated this and applied it to all the text. Then I applied this formula: p_laplace = p_laplace * ((b + 1) / (u + v)). Then I created a function that calculates the probabilty for each language, by passing their unigram and bigram into the the defined functions. Then, I created another function that calculated the probability for each language, by referencing my previous function. Then, I extracted the langnuage for the maximum probabiltiy only. Next, I read the LangId.test file, then detected the results and wrote it to a file. Then I read the LangId.sol (correct classifications files), then I got the accuracy. 
 
-Accuracy of correctly classified instances : 97.33%
-
-The incorrectly Identified Line Numbers are: 24 63 87 92 191 196 220 279
 
 
 
