@@ -27,7 +27,7 @@ Project 2 Summary: Created a function that unpickles a dictionary from a given f
 
 ## Sentence Parsing
 
-[N-Grams Narrative](https://farishah.github.io/CS6301-NLP/Farishah_Nahrin_Sentence_Parsing.pdf)
+[Sentence Parsing - Comparing the Three Types of Sentence Parsers](https://farishah.github.io/CS6301-NLP/Farishah_Nahrin_Sentence_Parsing.pdf)
 
 
 
