@@ -5,7 +5,7 @@
 [Word Guess Game](https://github.com/farishah/CS6301-NLP/tree/main/FarishahNahrin_Chapter5)
 
 ## Web Crawler
-[N-Grams Narrative](https://farishah.github.io/CS6301-NLP/Farishah_Ngrams/Report_FarishahNahrin.pdf)
+[N-Grams Narrative](https://farishah.github.io/CS6301-NLP/FarishahNahrin_WebCrawler/Report_FarishahNahrin.pdf)
 
 [Building a Corpus - Web Crawler](https://github.com/farishah/CS6301-NLP/tree/main/FarishahNahrin_WebCrawler)
 
