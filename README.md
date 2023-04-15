@@ -36,4 +36,10 @@ Project 2 Summary: Created a function that unpickles a dictionary from a given f
 
 [Chatbot Project](https://github.com/farishah/CS6301-NLP/tree/main/FarishahNahrin_ChatBot)
 
+## ACL Paper Summary
+[Chatbot Report](https://farishah.github.io/CS6301-NLP/Farishah_Nahrin_ACL_Summary.pdf)
+
+## Text Classification
+[Text Classification 1](https://github.com/farishah/CS6301-NLP/tree/main/Farishah_Text_Classification_1)
+
 
