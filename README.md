@@ -39,7 +39,8 @@ Project 2 Summary: Created a function that unpickles a dictionary from a given f
 ## ACL Paper Summary
 [ACL Paper Summary](https://farishah.github.io/CS6301-NLP/Farishah_Nahrin_ACL_Summary.pdf)
 
-## Text Classification
+## Text Classification 1 
 [Text Classification 1](https://github.com/farishah/CS6301-NLP/tree/main/Farishah_Text_Classification_1)
 
-
+## Text Classification 2
+[Text Classification 2](https://github.com/farishah/CS6301-NLP/tree/main/Farishah_Text_Classification_2)
